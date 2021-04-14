@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+	max-width: 953px;
+	margin: 0 auto;
+	font-family: 'Press Start 2P', cursive;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.wrapper {
+	padding-top: 10px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	outline: solid 2px black;
+  }
+  .menu ul {
+	margin-left: 0;
+	list-style: none;
+	text-align: center;
+  }
+  .menu ul li {
+	display: inline-block;
+  }
+  .menu ul li a {
+	display: block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+  }
+  .menu ul li a:hover {
+	color: #183440;
+  }
+  .about{
+	  padding-top: 5%;
+	  font-size: 13px;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
